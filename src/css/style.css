@@ -1,0 +1,42 @@
+#mapid {
+    height: 99%;
+    width: 99%;
+    overflow: hidden;
+}
+body{
+    height:100%;
+    width: 100%;
+}
+html{
+    height:100%;
+    width: 100%;
+}
+
+.stopLabel {
+    background: rgba(255, 255, 255, 0.75);
+    border: 2px rgba(0, 0, 255, 0);
+}
+
+.leaflet-control-layers-overlays{
+	width:280px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.leaflet-control-layers-overlays input{
+	display: none;
+}
+
+.leaflet-control-layers-overlays label:hover{
+	cursor: pointer;
+}
+
+
+.leaflet-control-layers-overlays label img{
+    transition: transform 0.5s, filter 2s;
+}
+
+img.leaflet-marker-icon{
+    filter: drop-shadow(0px 0px 5px black);
+}
+
